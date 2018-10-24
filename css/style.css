@@ -1,0 +1,60 @@
+.container {
+    margin-top: 75px;
+    width: 600px;
+    text-align: center;
+}
+
+.higherCloud {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #6A7E85;
+}
+
+.degreeText {
+    padding-top: 75px;
+    font-size: 50px;
+}
+
+.degreeButton {
+    background: none;
+    border: none;
+}
+
+.lowerCloud {
+    margin: 0 auto;
+    margin-top: -150px;
+    width: 450px;
+    height: 150px;
+    border-radius: 100px;
+    background: #6A7E85;
+}
+
+.locationText {
+    display: inline;
+    float: left;
+    margin: 50px 0px 0px 40px;
+    font-size: 20px;
+}
+
+.weatherIcon {
+    display: inline;
+    float: right;
+    margin: 40px 40px 0px 0px;
+    font-size: 60px;
+}
+
+.myFooter {
+    margin-top: 15px;
+    text-align: center;
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: #eaeaea;
+}
+
+.textColor {
+    color: #eaeaea;
+}
