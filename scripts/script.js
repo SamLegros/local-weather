@@ -31,7 +31,7 @@ $(document).ready(function() {
             myLat = position.coords.latitude;
             myLong = position.coords.longitude;
 
-            myJson = "https://api.darksky.net/forecast/ee2f66f091ed810afc3bf04adc5fa750/" + myLat + "," + myLong + "?callback=?";
+            myJson = "https://api.darksky.net/forecast/27fbb9e1cf93f6fc08496d20b7aaf5a3/" + myLat + "," + myLong + "?callback=?";
 
             getJsonData();
         }); // end of getCurrentPosition function
